@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Principal;
+    src: url("./find_cartoon/Find_Cartoon.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    width: 100%;
+    max-height: 100px;
+    align-self: flex-start;
+    padding: 10px;
+}
+body{
+    font-family: Principal;
+    background-color: rgb(90, 222, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+.Login_Content{
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 200px auto;
+    min-height: 400px;
+    box-shadow: 5px 5px 0 black;
+    display: flex;
+}
+.Login_Titulo{
+    background-color: rgb(249, 62, 62);
+    padding: 20px;
+    text-align: center;
+    border-top-right-radius: 20px;
+}
+.fon{
+    background-color: hsla(0, 0%, 34%, 0.5);
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.Login_Content .Login_side{
+    width: 40%;
+    text-align: justify
+    ;
+    background-image: url("./../Imagenes/simon_bolivar.jpg");
+    background-size: cover;
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(86, 216, 255);
+}
+.Login_Content .Login_form{
+    width: 60%;
+    
+}
+.Login_Content .Login_form .formulario_Login{
+    padding: 10px;
+}
+.Login_Content .Login_form .formulario_Login input[type="text"], input[type="password"]{
+    width: 90%;
+    height: 40px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(255, 183, 183);
+}
+.contenedor_input{
+    margin-top: 10px;
+}
+.contenedor_input.button{
+    text-align: center;
+}
+.contenedor_input.button input{
+    padding: 20px;
+}
